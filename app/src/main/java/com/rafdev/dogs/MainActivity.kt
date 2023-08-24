@@ -16,6 +16,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        initRecyclarView()
+    }
+
+    private fun initRecyclarView() {
+
     }
 
     private fun getRetrofit():Retrofit{
